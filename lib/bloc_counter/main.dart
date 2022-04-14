@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_bloc_simple/app.dart';
-import 'package:flutter_application_bloc_simple/counter_observer.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'app.dart';
+import 'counter_observer.dart';
 
 void main() {
   BlocOverrides.runZoned(
