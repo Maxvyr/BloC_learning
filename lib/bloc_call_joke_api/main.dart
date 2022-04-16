@@ -16,14 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        brightness: Brightness.dark,
-        primaryColor: Colors.grey[900],
-        backgroundColor: Colors.grey[900],
-        scaffoldBackgroundColor: Colors.grey[900],
-        buttonTheme: ButtonThemeData(
-          buttonColor: Colors.grey[900],
-          textTheme: ButtonTextTheme.primary,
-        ),
+        primarySwatch: Colors.green,
       ),
       home: RepositoryProvider(
         create: (_) => JokeRepository(),
