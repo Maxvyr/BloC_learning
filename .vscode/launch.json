@@ -16,6 +16,13 @@
             "program": "./lib/bloc_call_api/main.dart"
         },
         {
+            "name": "debug bloc call joke api",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "./lib/bloc_call_joke_api/main.dart"
+        },
+        {
             "name": "Run all Tests",
             "type": "dart",
             "request": "launch",
