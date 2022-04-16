@@ -9,11 +9,11 @@
             "program": "./lib/bloc_counter/main.dart"
         },
         {
-            "name": "debug bloc call api",
+            "name": "debug bloc call photo api",
             "request": "launch",
             "type": "dart",
             "flutterMode": "debug",
-            "program": "./lib/bloc_call_api/main.dart"
+            "program": "./lib/bloc_call_photo_api/main.dart"
         },
         {
             "name": "debug bloc call joke api",
